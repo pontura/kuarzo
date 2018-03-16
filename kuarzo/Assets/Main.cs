@@ -5,11 +5,16 @@ using UnityEngine;
 public class Main : MonoBehaviour {
 	
 	public FacetrackingManager manager;
-	public GameObject jaw;
-	public float defaultX = 89;
-	public float jawSmooth;
+	GameObject jaw;
+	float Max_Opened;
+	public float newAnlge;
+	Vector3 originalRotation;
 
 	void Start () {
+		jaw = GameObject.Find ("jaw");
+		originalRotation = jaw.transform.localEulerAngles;
+		Max_Opened = originalRotation.x + 50;
+
 	}
 	
 	// Update is called once per frame
@@ -18,16 +23,18 @@ public class Main : MonoBehaviour {
 		//print (jawValue);
 		UpdateJaw (jawValue);
 	}
+
 	void UpdateJaw(float value)
 	{
-		if (value < 0.3f)
+		if (value < 0.12f)
 			value = 0;
-		
+
+		newAnlge = originalRotation.x + (value * (Max_Opened - originalRotation.x));
+
 		Vector3 newRot = jaw.transform.localEulerAngles;
-		newRot.y = 0;
-		newRot.z = 0;
-		float _x = Mathf.Lerp(newRot.x, value * (jawSmooth) + defaultX, 0.15f);
-		newRot.x = _x;
+		newRot.y = originalRotation.y;
+		newRot.z = originalRotation.z;
+		newRot.x = Mathf.Lerp(newRot.x, newAnlge, 0.8f);
 		jaw.transform.localEulerAngles = newRot;
 	}
 }
