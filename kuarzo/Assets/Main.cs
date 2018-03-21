@@ -12,6 +12,8 @@ public class Main : MonoBehaviour {
 
 	void Start () {
 		jaw = GameObject.Find ("jaw");
+		if (jaw == null)
+			return;
 		originalRotation = jaw.transform.localEulerAngles;
 		Max_Opened = originalRotation.x + 50;
 
@@ -19,6 +21,8 @@ public class Main : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (jaw == null)
+			return;
 		float jawValue = manager.GetAnimUnit(KinectInterop.FaceShapeAnimations.JawOpen);
 		//print (jawValue);
 		UpdateJaw (jawValue);

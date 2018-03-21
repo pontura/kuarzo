@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: a458d477c43fcbf40b54dfb9c7f50e9e
-timeCreated: 1520881601
+guid: dc5e31cfa77158a48b5ac3bf728ff49c
+timeCreated: 1520881684
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -179,52 +179,52 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabeza_01
-    second: {fileID: 2100000, guid: c9bf196630fcee94ab86766f8cc64c08, type: 2}
+    second: {fileID: 2100000, guid: f61c6e8f6d44e2c44bc01146a29718d3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: calzado
-    second: {fileID: 2100000, guid: 0358e91d8f4abb243aa17cd7e145cfbb, type: 2}
+    second: {fileID: 2100000, guid: a9c5fecb02174dd4e86f0eeb11cf5cba, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chaqueta_01
-    second: {fileID: 2100000, guid: 832a23ef072a5894aaf9ca45fd06d367, type: 2}
+    second: {fileID: 2100000, guid: b9e2878beeb53454e96b8835202f7fc2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: collar_01
-    second: {fileID: 2100000, guid: 78de0d8be2c8b5544a9b892b9773f11b, type: 2}
+    second: {fileID: 2100000, guid: 59132348991c91e4bba5dde9e4b5183e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: guante_01
-    second: {fileID: 2100000, guid: ceaa1c85a41af9e42aa9ddc45f4d20af, type: 2}
+    second: {fileID: 2100000, guid: 486f5a54e854e824fa86c7d9ee94dd5c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pelo_01
-    second: {fileID: 2100000, guid: 01110d5371ec37e42a08ad96cbfac7e4, type: 2}
+    second: {fileID: 2100000, guid: 2a78e42d88d0290489256c65a92d01e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: remera_01
-    second: {fileID: 2100000, guid: 94cff0ea0a464b647b3a0d40e69c91c4, type: 2}
+    second: {fileID: 2100000, guid: d764d1ba231ecb14fa08f70f92974c17, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_01
-    second: {fileID: 2100000, guid: 4fe992a6ebe03c94498ce8efba959b8e, type: 2}
+    second: {fileID: 2100000, guid: cc18b8ed3a098614bbb8b5f73d09b1b2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_02
-    second: {fileID: 2100000, guid: 3d8004eb035793648b3c26a6f20d5d49, type: 2}
+    second: {fileID: 2100000, guid: c4fa6f704321a7b4fa1f79d26ddfe01e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: torso_01
-    second: {fileID: 2100000, guid: f33fb4e6afbef6d40be3b56615e435d2, type: 2}
+    second: {fileID: 2100000, guid: 9ec77a3b01a420d4cb78d9f5bebf5e9e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
