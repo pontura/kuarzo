@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1255,132 +1255,6 @@ RectTransform:
   m_AnchoredPosition: {x: 41.3, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &341182081
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &341182082 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-  m_PrefabInternal: {fileID: 341182081}
---- !u!1 &341182083 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100014, guid: d5b15d9f76cb24144969716c7705bc73, type: 3}
-  m_PrefabInternal: {fileID: 341182081}
---- !u!114 &341182084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341182083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &341182085
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341182083}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &341182086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341182083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &341581514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2765,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 697334449}
+--- !u!1001 &714134366
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1535572603}
+    m_Modifications:
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &722782091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,14 +2873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eca11b11eab00a4c84a8970a7126c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chicos:
-  - {fileID: 341182083}
-  - {fileID: 1012030424}
-  - {fileID: 1929831101}
-  chicas:
-  - {fileID: 1119591447}
-  - {fileID: 786977496}
-  - {fileID: 951155277}
+  avatars: {fileID: 1883949995}
   female: 0
   sizeIndex: 0
   peinadoIndex: 0
@@ -3385,132 +3294,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 771767752}
---- !u!1001 &786977494
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &786977495 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-  m_PrefabInternal: {fileID: 786977494}
---- !u!1 &786977496 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100024, guid: 5b53dbbd51013c840b7d8b55a11b2b26, type: 3}
-  m_PrefabInternal: {fileID: 786977494}
---- !u!114 &786977497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 786977496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &786977498
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 786977496}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &786977499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 786977496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &833123704
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,132 +3575,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
---- !u!1001 &951155275
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &951155276 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-  m_PrefabInternal: {fileID: 951155275}
---- !u!1 &951155277 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100014, guid: 0ac4757d13e0d6840837c1a5bb1c4d49, type: 3}
-  m_PrefabInternal: {fileID: 951155275}
---- !u!114 &951155278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 951155277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &951155279
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 951155277}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &951155280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 951155277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &974197391
 GameObject:
   m_ObjectHideFlags: 0
@@ -4069,136 +3726,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 993364717}
---- !u!1001 &1012030422
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 100014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &1012030423 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-  m_PrefabInternal: {fileID: 1012030422}
---- !u!1 &1012030424 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100014, guid: ff432dfec1cf84043a5b4ff0cd5e2b08, type: 3}
-  m_PrefabInternal: {fileID: 1012030422}
---- !u!114 &1012030425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012030424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &1012030426
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012030424}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1012030427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012030424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &1014563630
 GameObject:
   m_ObjectHideFlags: 0
@@ -4814,132 +4341,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1104155215}
---- !u!1001 &1119591445
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &1119591446 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-  m_PrefabInternal: {fileID: 1119591445}
---- !u!1 &1119591447 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100012, guid: a7b9e86db27180f4ab26f572f31a6c2f, type: 3}
-  m_PrefabInternal: {fileID: 1119591445}
---- !u!114 &1119591448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119591447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &1119591449
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119591447}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1119591450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119591447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &1123216027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,79 +4653,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1155233466}
---- !u!1 &1212843909
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1212843910}
-  - component: {fileID: 1212843913}
-  - component: {fileID: 1212843912}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1212843910
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212843909}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.85, z: -1.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1535572603}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!124 &1212843912
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212843909}
-  m_Enabled: 1
---- !u!20 &1212843913
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212843909}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 315f75df04c944848b595abba963059a, type: 2}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1 &1215568937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5970,14 +5298,7 @@ MonoBehaviour:
   apellido: {fileID: 384156298}
   sexo: {fileID: 145311848}
   name2Show: {fileID: 1035372614}
-  chicos:
-  - {fileID: 341182083}
-  - {fileID: 1012030424}
-  - {fileID: 1929831101}
-  chicas:
-  - {fileID: 1119591447}
-  - {fileID: 786977496}
-  - {fileID: 951155277}
+  avatars: {fileID: 1883949995}
   itemSelected: 0
   ItemButtons:
   - {fileID: 1522896571}
@@ -6937,14 +6258,7 @@ Transform:
   m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1212843910}
-  - {fileID: 341182082}
-  - {fileID: 1012030423}
-  - {fileID: 1929831100}
-  - {fileID: 1119591446}
-  - {fileID: 786977495}
-  - {fileID: 951155276}
-  - {fileID: 1961034522}
+  - {fileID: 1883949994}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6959,6 +6273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b377221680b437846bf310b7f4ef6c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chicos: []
+  chicas: []
 --- !u!1 &1552216560
 GameObject:
   m_ObjectHideFlags: 0
@@ -8522,6 +7838,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1874166485}
+--- !u!4 &1883949994 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4494920661057620, guid: 10e0602fcf5d587469b23a4f61a3d90c,
+    type: 2}
+  m_PrefabInternal: {fileID: 714134366}
+--- !u!114 &1883949995 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114797870029981642, guid: 10e0602fcf5d587469b23a4f61a3d90c,
+    type: 2}
+  m_PrefabInternal: {fileID: 714134366}
+  m_Script: {fileID: 11500000, guid: b377221680b437846bf310b7f4ef6c38, type: 3}
 --- !u!1 &1894268027
 GameObject:
   m_ObjectHideFlags: 0
@@ -8818,132 +8145,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1925797866}
---- !u!1001 &1929831099
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1535572603}
-    m_Modifications:
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-  m_IsPrefabParent: 0
---- !u!4 &1929831100 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-  m_PrefabInternal: {fileID: 1929831099}
---- !u!1 &1929831101 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100014, guid: 5fa17e8591c8f2746b43b270afb5e044, type: 3}
-  m_PrefabInternal: {fileID: 1929831099}
---- !u!114 &1929831102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1929831101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  calzadoPattern: calzado_
-  ropaAbajoPattern: ropa_abajo_
-  ropaArribaPattern: ropa_arriba_
-  accesorioPattern: 
-  tatuajePattern: 
-  maquillajePattern: 
-  barbaPattern: barba_
-  peinadoPattern: peinado_
-  calzado: []
-  ropaAbajo: []
-  ropaArriba: []
-  accesorio: []
-  tatuaje: []
-  maquillaje: []
-  barba: []
-  peinado: []
---- !u!54 &1929831103
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1929831101}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1929831104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1929831101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c52c07402f7274cab64e484b1bddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerIndex: 0
-  mirroredMovement: 0
-  verticalMovement: 1
-  externalRootMotion: 0
-  externalHeadRotation: 0
-  externalHandRotations: 0
-  fingerOrientations: 1
-  moveRate: 1
-  smoothFactor: 10
-  offsetNode: {fileID: 0}
-  posRelativeToCamera: {fileID: 0}
-  posRelOverlayColor: 0
-  backgroundPlane: {fileID: 0}
-  posRelInvertedZ: 0
-  groundedFeet: 1
-  applyMuscleLimits: 1
-  flipLeftRight: 0
-  verticalOffset: 0
-  forwardOffset: 0
 --- !u!1 &1936807012
 GameObject:
   m_ObjectHideFlags: 0
@@ -9066,92 +8267,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936807012}
---- !u!1 &1961034521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1961034522}
-  - component: {fileID: 1961034525}
-  - component: {fileID: 1961034524}
-  - component: {fileID: 1961034523}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1961034522
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1961034521}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1535572603}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1961034523
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1961034521}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!64 &1961034524
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1961034521}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!33 &1961034525
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1961034521}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1970600535
 GameObject:
   m_ObjectHideFlags: 0

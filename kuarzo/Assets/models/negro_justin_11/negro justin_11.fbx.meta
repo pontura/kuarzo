@@ -260,22 +260,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 4f34f5d0cb26d0a4c88670da634fb7dd, type: 2}
+    second: {fileID: 2100000, guid: a75066736f657c04bb4ef69e472f68de, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
+    second: {fileID: 2100000, guid: 3b238888b29162247913b0fefdfba86e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.006
-    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
+    second: {fileID: 2100000, guid: 2d3089db3c4ebb443a80414e1a3cafe6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.010
-    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
+    second: {fileID: 2100000, guid: 2873c0e3e8630a14585bd4898e9b8fed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -290,7 +290,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabeza.01
-    second: {fileID: 2100000, guid: d1eae49e4ee51a24cb86ce179a684d19, type: 2}
+    second: {fileID: 2100000, guid: b21edaae89e02d9489ab594581691f48, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -310,17 +310,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: peinado_02
-    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
+    second: {fileID: 2100000, guid: 541bac914aae86f48bb05fe3aa8bb4ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pelo.001
-    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
+    second: {fileID: 2100000, guid: 92ea771c96060fd439b1dae1b1bb7abe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pelo_08
-    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
+    second: {fileID: 2100000, guid: 6234b2a8122271b448b0168f34c876a5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -330,7 +330,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: remera.001
-    second: {fileID: 2100000, guid: ee6c936e2630ea84aa8daa15e9ce690d, type: 2}
+    second: {fileID: 2100000, guid: acfcd9ef564b14747b7509667d2b4968, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -340,22 +340,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_01.004
-    second: {fileID: 2100000, guid: df45b120a4afa4b47afd787a6f3595cd, type: 2}
+    second: {fileID: 2100000, guid: 156e4c267b5f29f4cb30e2abdd64a7f1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_02.001
-    second: {fileID: 2100000, guid: 78dce63bcf9be224cabe12a07cb077d3, type: 2}
+    second: {fileID: 2100000, guid: aca3c4a765fa3fe46bc2a204cbea1a8e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_00
-    second: {fileID: 2100000, guid: 088593bd723a8104a976e2fb6b90ce8a, type: 2}
+    second: {fileID: 2100000, guid: 8304be19bfc3a024a83ae00923157554, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_00.002
-    second: {fileID: 2100000, guid: 088593bd723a8104a976e2fb6b90ce8a, type: 2}
+    second: {fileID: 2100000, guid: 77a2a8532257418468f94680e9ceefbb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -365,7 +365,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_02.001
-    second: {fileID: 2100000, guid: 144b57e3d4317cf40ae541b96780af81, type: 2}
+    second: {fileID: 2100000, guid: 2d640605ee4190e44bf875b239d2a740, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -380,7 +380,7 @@ ModelImporter:
     importMaterials: 1
     materialName: 1
     materialSearch: 0
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

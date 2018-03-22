@@ -7,8 +7,10 @@ using System.IO;
 
 public class AvatarLoader : MonoBehaviour {
 
-	public List<GameObject> chicos;
-	public List<GameObject> chicas;
+	public AllAvatars avatars;
+
+	List<GameObject> chicos;
+	List<GameObject> chicas;
 
 	public bool female;
 	public int sizeIndex;
@@ -25,7 +27,8 @@ public class AvatarLoader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		chicos = avatars.chicos;
+		chicas = avatars.chicas;
 	}
 
 	// Update is called once per frame

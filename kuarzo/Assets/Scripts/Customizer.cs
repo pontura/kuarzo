@@ -16,8 +16,9 @@ public class Customizer : MonoBehaviour {
 
 	bool apellidoDone, nombreDone, sexoDone;
 
-	public List<GameObject> chicos;
-	public List<GameObject> chicas;
+	public AllAvatars avatars;
+	List<GameObject> chicos;
+	List<GameObject> chicas;
 	bool female;
 
 	ScreenSteps screens;
@@ -52,6 +53,8 @@ public class Customizer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		screens = GetComponent<ScreenSteps> ();
+		chicos = avatars.chicos;
+		chicas = avatars.chicas;
 	}
 
 	// Update is called once per frame
