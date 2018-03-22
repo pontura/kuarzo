@@ -260,127 +260,127 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 808d5929fdf0bc5448113de0dc71a641, type: 2}
+    second: {fileID: 2100000, guid: 4f34f5d0cb26d0a4c88670da634fb7dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: a8286e220d006a74b9494ede5933685e, type: 2}
+    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.006
-    second: {fileID: 2100000, guid: a9b69ab9f78cf344283adc0d99978077, type: 2}
+    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.010
-    second: {fileID: 2100000, guid: 5ef31431ded5435428d4fb9bda3b53ae, type: 2}
+    second: {fileID: 2100000, guid: b3123475ab636cf4ab5505721bfb7919, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: accesorio_03
-    second: {fileID: 2100000, guid: 6d7ca79cdbabed6498eca40e42855a41, type: 2}
+    second: {fileID: 2100000, guid: 64908a774f06faf4ea6a6538a5e52043, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: accesorio_03.003
-    second: {fileID: 2100000, guid: c22b58147e21e3c44a10eed067ba5135, type: 2}
+    second: {fileID: 2100000, guid: 4b569bf7294bf2a4ba587411d2d481b5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: cabeza.01
-    second: {fileID: 2100000, guid: d9de15bcdedc93449add96a552b299e4, type: 2}
+    second: {fileID: 2100000, guid: d1eae49e4ee51a24cb86ce179a684d19, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: calzado_01
-    second: {fileID: 2100000, guid: c38b588fcd644214da560cdafb17b3bc, type: 2}
+    second: {fileID: 2100000, guid: bf6d110479115b941afdc968f117b62b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: initialShadingGroup
-    second: {fileID: 2100000, guid: c5b1ba75f130455429e9dee5b1f0b8bc, type: 2}
+    second: {fileID: 2100000, guid: df21e9c7b814d064eb05569062cc54ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal
-    second: {fileID: 2100000, guid: df6113d03f9e60f4a85ed602373973af, type: 2}
+    second: {fileID: 2100000, guid: 6c8dc0ac26eb44f4a972126f56881fc6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: peinado_02
-    second: {fileID: 2100000, guid: 22d9952ea6cbdab418667e1da726d3d4, type: 2}
+    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pelo.001
-    second: {fileID: 2100000, guid: 1ea125406b5b07c4c94ad9ab324ab6f7, type: 2}
+    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pelo_08
-    second: {fileID: 2100000, guid: bbb4dfb3036757447943881986147c55, type: 2}
+    second: {fileID: 2100000, guid: a0a8aa0201eea8d4c91b85dfc0b91adb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: remera
-    second: {fileID: 2100000, guid: bbc5fb2705143a843b59ea88bfdc6e9c, type: 2}
+    second: {fileID: 2100000, guid: 10d223d7ffbe10843ae92d4ae48933f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: remera.001
-    second: {fileID: 2100000, guid: c1940888e6579694f89213350307b7dc, type: 2}
+    second: {fileID: 2100000, guid: ee6c936e2630ea84aa8daa15e9ce690d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_01
-    second: {fileID: 2100000, guid: 3f9b6587f257c974c98540d64a3184cb, type: 2}
+    second: {fileID: 2100000, guid: df45b120a4afa4b47afd787a6f3595cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_01.004
-    second: {fileID: 2100000, guid: 0b644440f5468814c8572ecbf04804c7, type: 2}
+    second: {fileID: 2100000, guid: df45b120a4afa4b47afd787a6f3595cd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_abajo_02.001
-    second: {fileID: 2100000, guid: ebcec127145d64c4f93cf68f2c3be6fd, type: 2}
+    second: {fileID: 2100000, guid: 78dce63bcf9be224cabe12a07cb077d3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_00
-    second: {fileID: 2100000, guid: 17fe58469e26560499f7f80f1e774ca6, type: 2}
+    second: {fileID: 2100000, guid: 088593bd723a8104a976e2fb6b90ce8a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_00.002
-    second: {fileID: 2100000, guid: a6421448250cd194fa0964dfcd2cc354, type: 2}
+    second: {fileID: 2100000, guid: 088593bd723a8104a976e2fb6b90ce8a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_01
-    second: {fileID: 2100000, guid: b237246ad59b39446bcd637410b0caf6, type: 2}
+    second: {fileID: 2100000, guid: cf8863324b7fb914cb58e4850552cb0b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ropa_arriba_02.001
-    second: {fileID: 2100000, guid: 2f6eee536c68bdc4cbed1671571cee5f, type: 2}
+    second: {fileID: 2100000, guid: 144b57e3d4317cf40ae541b96780af81, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: suela
-    second: {fileID: 2100000, guid: 8488bef9fbde99745bcde4ea6c50bcc3, type: 2}
+    second: {fileID: 2100000, guid: b11f23edf83db9d47813a78f51577929, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tatoos_01
-    second: {fileID: 2100000, guid: 7d41ee7036f79394aab430395f8161f2, type: 2}
+    second: {fileID: 2100000, guid: ae6e4f2a8b4940140b1dfe5fb6728e52, type: 2}
   materials:
     importMaterials: 1
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

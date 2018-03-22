@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 177808582}
   - component: {fileID: 177808581}
   - component: {fileID: 177808580}
+  - component: {fileID: 177808587}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: Untagged
@@ -386,6 +387,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &177808587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177808579}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2fd0b11cfb2fb4ca4ed47adfcc3b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: 9d7e8f87435780644abb4acdfd72a2f0, type: 3}
+  LookupTexture: {fileID: 2800000, guid: 8813871f6491c8d4d97124dbb2cde951, type: 3}
+  Amount: 1
+  TintColor: {r: 1, g: 1, b: 1, a: 1}
+  Hue: 295
+  Saturation: 1
+  Brightness: 0.07
+  Contrast: 1
+  Sharpness: 0.308
 --- !u!1001 &209499065
 Prefab:
   m_ObjectHideFlags: 0
@@ -1493,7 +1514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1123554630
 Transform:
   m_ObjectHideFlags: 0

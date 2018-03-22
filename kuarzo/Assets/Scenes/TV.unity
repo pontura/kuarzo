@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 11801803}
   - component: {fileID: 11801802}
   - component: {fileID: 11801801}
+  - component: {fileID: 11801805}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,6 +195,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11801805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11801800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2fd0b11cfb2fb4ca4ed47adfcc3b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shader: {fileID: 4800000, guid: 9d7e8f87435780644abb4acdfd72a2f0, type: 3}
+  LookupTexture: {fileID: 0}
+  Amount: 0.455
+  TintColor: {r: 0.875, g: 0.019301489, b: 0.019301489, a: 1}
+  Hue: 307
+  Saturation: 0.45
+  Brightness: 0.39
+  Contrast: 0.73
+  Sharpness: 0.65
 --- !u!1 &21655629
 GameObject:
   m_ObjectHideFlags: 0
@@ -8954,6 +8975,26 @@ Prefab:
         type: 2}
       propertyPath: posRelativeToCamera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613511246386314, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263728167833974, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683839402382780, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733553319171020, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808784863533326, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
