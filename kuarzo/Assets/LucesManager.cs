@@ -9,9 +9,29 @@ public class LucesManager : MonoBehaviour {
 	public GameObject flash1;
 	public GameObject flash2;
 
+	public GameObject mood1;
+	public GameObject mood2;
+
+	void Start()
+	{
+		Reset ();
+	}
 	public void Reset() {
 		OffAll ();
 		standard.SetActive (true);
+	}
+	public void Mood(int id)
+	{
+		OffAll ();
+		switch(id)
+		{
+		case 1:
+			mood1.SetActive (true);
+			break;
+		case 2:
+			mood2.SetActive (true);
+			break;
+		}
 	}
 	public void Flash(int id)
 	{
@@ -30,7 +50,8 @@ public class LucesManager : MonoBehaviour {
 	void OffAll()
 	{
 		standard.SetActive (false);
-		flash1.SetActive (false);
+		mood1.SetActive (false);
+		mood2.SetActive (false);
 	}
 
 

@@ -34,7 +34,14 @@ public class InputManager : MonoBehaviour {
 			Flash2 ();
 		} else if (Input.GetKeyDown (KeyCode.A)) {
 			LoopFlash ();
-		}
+		} 
+		if (Input.GetKeyDown (KeyCode.P)) 
+			ResetLights ();
+		if (Input.GetKeyDown (KeyCode.O)) 
+			Mood (1);
+		if (Input.GetKeyDown (KeyCode.I)) 
+			Mood (2);
+		
 	}
 	void Ojos()
 	{
@@ -72,5 +79,13 @@ public class InputManager : MonoBehaviour {
 	{		
 		lucesManager.LoopFlash ();
 		ui.SetTextField ("Flash " + lucesManager.isFlashing);
+	}
+	void ResetLights()
+	{
+		lucesManager.Reset ();
+	}
+	void Mood(int id)
+	{
+		lucesManager.Mood (id);
 	}
 }
