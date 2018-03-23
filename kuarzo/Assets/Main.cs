@@ -12,6 +12,9 @@ public class Main : MonoBehaviour {
 	GameObject leftEye;
 	GameObject rightEye;
 
+	public bool ojosActive;
+	public bool mouthActive;
+
 	void Start () {
 		jaw = GameObject.Find ("jaw");
 		leftEye  =  GameObject.Find ("leftEye");
@@ -22,16 +25,30 @@ public class Main : MonoBehaviour {
 		Max_Opened = originalRotation.x + 50;
 
 	}
-	
-	// Update is called once per frame
+	public void SetMouthActive()
+	{
+		mouthActive = !mouthActive;
+		float angle = originalRotation.x + (0 * (Max_Opened - originalRotation.x));
+		Vector3 newRot = jaw.transform.localEulerAngles;
+		newRot.y = originalRotation.y;
+		newRot.z = originalRotation.z;
+		newRot.x = angle;
+		jaw.transform.localEulerAngles = newRot;
+	}
+	public void SetOjosActive()
+	{
+		ojosActive = !ojosActive;
+		leftEye.SetActive (false);
+		rightEye.SetActive (false);
+	}
 	void Update () {
 		
 		float jawValue = manager.GetAnimUnit(KinectInterop.FaceShapeAnimations.JawOpen);
 		float eyesValue = manager.GetAnimUnit(KinectInterop.FaceShapeAnimations.LefteyeClosed);
 		//print (jawValue);
-		if (jaw != null)
+		if (jaw != null && mouthActive)
 			UpdateJaw (jawValue);
-		if (leftEye != null)
+		if (leftEye != null && ojosActive)
 			UpdateEyes (eyesValue);
 	}
 
@@ -51,11 +68,11 @@ public class Main : MonoBehaviour {
 	void UpdateEyes(float value)
 	{
 		if (value < 0.4f) {
-			leftEye.SetActive (true);
-			rightEye.SetActive (true);
-		} else {
 			leftEye.SetActive (false);
 			rightEye.SetActive (false);
+		} else {
+			leftEye.SetActive (true);
+			rightEye.SetActive (true);
 		}
 	}
 }
