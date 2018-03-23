@@ -38,7 +38,7 @@ public class AvatarLoader : MonoBehaviour {
 
 
 
-	List<GameObject> SetAvatarSex(){		
+	List<GameObject> SetAvatarSex(){	
 		if (female) {
 			foreach (GameObject go in chicos)
 				go.SetActive (false);
@@ -121,7 +121,8 @@ public class AvatarLoader : MonoBehaviour {
 		//string json = PlayerPrefs.GetString ("AvatarData");
 		if (!json.text.Equals ("")) {
 			var N = JSON.Parse (json.text);
-			female = N ["sexo"]=="F"?true:false;
+			string f = N ["sexo"];
+			female = f=="F"?true:false;
 			sizeIndex = N ["sizeIndex"].AsInt;
 			peinadoIndex = N ["peinadoIndex"].AsInt;
 			ropa_arribaIndex = N ["ropa_arribaIndex"].AsInt;
