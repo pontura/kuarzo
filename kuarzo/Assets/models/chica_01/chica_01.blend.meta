@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: d209678f3a873634999fdcee7c8f695d
+timeCreated: 1520875937
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armature_001
+    100002: Bone
+    100004: cabeza_01
+    100006: calzado_01
+    100008: chaqueta_01
+    100010: chest
+    100012: //RootNode
+    100014: collar_01
+    100016: finger_index_distal_l
+    100018: finger_index_distal_r
+    100020: finger_index_interm_l
+    100022: finger_index_interm_r
+    100024: finger_index_proxim_l
+    100026: finger_index_proxim_r
+    100028: finger_little_distal_l
+    100030: finger_little_distal_r
+    100032: finger_little_interm_l
+    100034: finger_little_interm_r
+    100036: finger_little_proxim_l
+    100038: finger_little_proxim_r
+    100040: finger_middle_distal_l
+    100042: finger_middle_distal_r
+    100044: finger_middle_interm_l
+    100046: finger_middle_interm_r
+    100048: finger_middle_proxim_l
+    100050: finger_middle_proxim_r
+    100052: finger_ring_distal_l
+    100054: finger_ring_distal_r
+    100056: finger_ring_interm_l
+    100058: finger_ring_interm_r
+    100060: finger_ring_proxim_l
+    100062: finger_ring_proxim_r
+    100064: finger_thumb_distal_l
+    100066: finger_thumb_distal_r
+    100068: finger_thumb_interm_l
+    100070: finger_thumb_interm_r
+    100072: finger_thumb_proxim_l
+    100074: finger_thumb_proxim_r
+    100076: foot_l
+    100078: foot_r
+    100080: hand_l
+    100082: hand_r
+    100084: head
+    100086: jaw
+    100088: lowerarm_l
+    100090: lowerarm_r
+    100092: lowerleg_l
+    100094: lowerleg_r
+    100096: neck
+    100098: pelo_01
+    100100: piernas_01
+    100102: remera_01
+    100104: short_01
+    100106: shoulder_l
+    100108: shoulder_r
+    100110: stomach
+    100112: toe_l
+    100114: toe_r
+    100116: torso_01
+    100118: upperarm_l
+    100120: upperarm_r
+    100122: upperleg_l
+    100124: upperleg_r
+    400000: armature_001
+    400002: Bone
+    400004: cabeza_01
+    400006: calzado_01
+    400008: chaqueta_01
+    400010: chest
+    400012: //RootNode
+    400014: collar_01
+    400016: finger_index_distal_l
+    400018: finger_index_distal_r
+    400020: finger_index_interm_l
+    400022: finger_index_interm_r
+    400024: finger_index_proxim_l
+    400026: finger_index_proxim_r
+    400028: finger_little_distal_l
+    400030: finger_little_distal_r
+    400032: finger_little_interm_l
+    400034: finger_little_interm_r
+    400036: finger_little_proxim_l
+    400038: finger_little_proxim_r
+    400040: finger_middle_distal_l
+    400042: finger_middle_distal_r
+    400044: finger_middle_interm_l
+    400046: finger_middle_interm_r
+    400048: finger_middle_proxim_l
+    400050: finger_middle_proxim_r
+    400052: finger_ring_distal_l
+    400054: finger_ring_distal_r
+    400056: finger_ring_interm_l
+    400058: finger_ring_interm_r
+    400060: finger_ring_proxim_l
+    400062: finger_ring_proxim_r
+    400064: finger_thumb_distal_l
+    400066: finger_thumb_distal_r
+    400068: finger_thumb_interm_l
+    400070: finger_thumb_interm_r
+    400072: finger_thumb_proxim_l
+    400074: finger_thumb_proxim_r
+    400076: foot_l
+    400078: foot_r
+    400080: hand_l
+    400082: hand_r
+    400084: head
+    400086: jaw
+    400088: lowerarm_l
+    400090: lowerarm_r
+    400092: lowerleg_l
+    400094: lowerleg_r
+    400096: neck
+    400098: pelo_01
+    400100: piernas_01
+    400102: remera_01
+    400104: short_01
+    400106: shoulder_l
+    400108: shoulder_r
+    400110: stomach
+    400112: toe_l
+    400114: toe_r
+    400116: torso_01
+    400118: upperarm_l
+    400120: upperarm_r
+    400122: upperleg_l
+    400124: upperleg_r
+    2100000: piernas_01__medias_jpg
+    2100002: guante_01
+    2100004: torso_01
+    2100006: calzado
+    2100008: short_001
+    2100010: chaqueta
+    2100012: remera_01
+    2100014: pelo_01__pelo_jpg_003
+    2100016: pelo_01
+    2100018: collar_01
+    2100020: cabeza_01__cara_jpg_004
+    4300000: piernas_01
+    4300002: torso_01
+    4300004: calzado_01
+    4300006: short_01
+    4300008: chaqueta_01
+    4300010: remera_01
+    4300012: pelo_01
+    4300014: collar_01
+    4300016: cabeza_01
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: cabeza_01
+    13700002: calzado_01
+    13700004: chaqueta_01
+    13700006: collar_01
+    13700008: pelo_01
+    13700010: piernas_01
+    13700012: remera_01
+    13700014: short_01
+    13700016: torso_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
