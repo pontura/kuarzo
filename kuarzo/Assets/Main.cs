@@ -9,9 +9,13 @@ public class Main : MonoBehaviour {
 	float Max_Opened;
 	public float newAnlge;
 	Vector3 originalRotation;
+	GameObject leftEye;
+	GameObject rightEye;
 
 	void Start () {
 		jaw = GameObject.Find ("jaw");
+		leftEye  =  GameObject.Find ("leftEye");
+		rightEye =  GameObject.Find ("rightEye");
 		if (jaw == null)
 			return;
 		originalRotation = jaw.transform.localEulerAngles;
@@ -21,11 +25,14 @@ public class Main : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (jaw == null)
-			return;
+		
 		float jawValue = manager.GetAnimUnit(KinectInterop.FaceShapeAnimations.JawOpen);
+		float eyesValue = manager.GetAnimUnit(KinectInterop.FaceShapeAnimations.LefteyeClosed);
 		//print (jawValue);
-		UpdateJaw (jawValue);
+		if (jaw != null)
+			UpdateJaw (jawValue);
+		if (leftEye != null)
+			UpdateEyes (eyesValue);
 	}
 
 	void UpdateJaw(float value)
@@ -40,5 +47,15 @@ public class Main : MonoBehaviour {
 		newRot.z = originalRotation.z;
 		newRot.x = Mathf.Lerp(newRot.x, newAnlge, 0.8f);
 		jaw.transform.localEulerAngles = newRot;
+	}
+	void UpdateEyes(float value)
+	{
+		if (value < 0.4f) {
+			leftEye.SetActive (true);
+			rightEye.SetActive (true);
+		} else {
+			leftEye.SetActive (false);
+			rightEye.SetActive (false);
+		}
 	}
 }
