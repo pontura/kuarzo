@@ -51,11 +51,11 @@ public class Main : MonoBehaviour {
 	void UpdateEyes(float value)
 	{
 		if (value < 0.4f) {
-			leftEye.SetActive (true);
-			rightEye.SetActive (true);
-		} else {
 			leftEye.SetActive (false);
 			rightEye.SetActive (false);
+		} else {
+			leftEye.SetActive (true);
+			rightEye.SetActive (true);
 		}
 	}
 }

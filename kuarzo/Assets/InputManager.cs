@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class InputManager : MonoBehaviour {
 
+	public UIScreen ui;
 	public Animation introAnim;
 
 	void Update () {
@@ -22,10 +23,12 @@ public class InputManager : MonoBehaviour {
 	}
 	void IntroOn()
 	{
+		ui.SetTextField ("intro on");
 		introAnim.Play ("intro");
 	}
 	void IntroOff()
 	{
+		ui.SetTextField ("intro off");
 		introAnim.Play ("introOff");
 	}
 }
