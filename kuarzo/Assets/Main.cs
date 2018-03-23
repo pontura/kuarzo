@@ -15,10 +15,25 @@ public class Main : MonoBehaviour {
 	public bool ojosActive;
 	public bool mouthActive;
 
+	public GameObject mic;
+	public GameObject mic_to_instantiate;
+
+	public GameObject cameraMain;
+
 	void Start () {
 		jaw = GameObject.Find ("jaw");
 		leftEye  =  GameObject.Find ("leftEye");
 		rightEye =  GameObject.Find ("rightEye");
+
+		GameObject oldMic =  GameObject.Find ("mic");
+
+		mic = Instantiate (mic_to_instantiate);
+		mic.transform.SetParent (oldMic.transform.parent);
+		mic.transform.localScale = oldMic.transform.localScale;
+		mic.transform.localPosition = oldMic.transform.localPosition;
+		mic.transform.rotation = oldMic.transform.rotation;
+		Destroy (oldMic.gameObject);
+
 		if (jaw == null)
 			return;
 		originalRotation = jaw.transform.localEulerAngles;
@@ -75,4 +90,20 @@ public class Main : MonoBehaviour {
 			rightEye.SetActive (true);
 		}
 	}
+	public void SetMicTrail(bool isOn)
+	{
+		mic.GetComponent<TrailRenderer> ().enabled = isOn;
+	}
+	public void SetMicParticles(bool isOn)
+	{
+		if(mic.GetComponentInChildren<ParticleSystem> () != null)
+			mic.GetComponentInChildren<ParticleSystem> ().gameObject.SetActive (isOn);
+	}
+	public void MoveCamera(float _y)
+	{
+		Vector3 pos = cameraMain.transform.localPosition;
+		pos.y += _y;
+		cameraMain.transform.localPosition = pos;
+	}
+		
 }
