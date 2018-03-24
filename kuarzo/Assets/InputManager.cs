@@ -47,26 +47,43 @@ public class InputManager : MonoBehaviour {
 			ResetLights ();
 			main.SetMicTrail (false);
 			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
 		}
 		if (Input.GetKeyDown (KeyCode.O)) {
 			main.SetMicTrail (true);
 			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
 			Mood (1);
 		}
 		if (Input.GetKeyDown (KeyCode.I)) {
 			main.SetMicTrail (false);
 			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
 			Mood (2);
 		}
 		if (Input.GetKeyDown (KeyCode.U)) {
 			main.SetMicTrail (false);
-			main.SetMicParticles (true);
+			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
 			Mood (3);
 		}
 		if (Input.GetKeyDown (KeyCode.Y)) {
 			main.SetMicTrail (false);
-			main.SetMicParticles (false);
+			main.SetMicParticles (true);
+			main.SetTrailVerde (false);
 			Mood (4);
+		}
+		if (Input.GetKeyDown (KeyCode.T)) {
+			main.SetMicTrail (true);
+			main.SetMicParticles (false);
+			main.SetTrailVerde (true);
+			Mood (5);
+		}
+		if (Input.GetKeyDown (KeyCode.R)) {
+			main.SetMicTrail (false);
+			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
+			Mood (6);
 		}
 
 		if (Input.GetKeyDown (KeyCode.Alpha9)) {

@@ -19,6 +19,8 @@ public class Main : MonoBehaviour {
 	public GameObject mic_to_instantiate;
 
 	public GameObject cameraMain;
+	ParticleSystem micParticles;
+	GameObject trailverde;
 
 	void Start () {
 		jaw = GameObject.Find ("jaw");
@@ -32,13 +34,18 @@ public class Main : MonoBehaviour {
 		mic.transform.localScale = oldMic.transform.localScale;
 		mic.transform.localPosition = oldMic.transform.localPosition;
 		mic.transform.rotation = oldMic.transform.rotation;
+		micParticles = mic.GetComponentInChildren<ParticleSystem> ();
 		Destroy (oldMic.gameObject);
 
 		if (jaw == null)
 			return;
 		originalRotation = jaw.transform.localEulerAngles;
 		Max_Opened = originalRotation.x + 50;
-
+		Invoke ("Delayed", 0.5f);
+	}
+	void Delayed()
+	{
+		trailverde = GameObject.Find ("trailVerde");
 	}
 	public void SetMouthActive()
 	{
@@ -96,8 +103,11 @@ public class Main : MonoBehaviour {
 	}
 	public void SetMicParticles(bool isOn)
 	{
-		if(mic.GetComponentInChildren<ParticleSystem> () != null)
-			mic.GetComponentInChildren<ParticleSystem> ().gameObject.SetActive (isOn);
+		micParticles.gameObject.SetActive (isOn);
+	}
+	public void SetTrailVerde(bool isOn)
+	{
+		trailverde.SetActive (isOn);
 	}
 	public void MoveCamera(float _y)
 	{

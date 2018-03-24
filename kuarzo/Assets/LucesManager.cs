@@ -13,6 +13,8 @@ public class LucesManager : MonoBehaviour {
 	public GameObject mood2;
 	public GameObject mood3;
 	public GameObject mood4;
+	public GameObject mood5;
+	public GameObject mood6;
 
 	void Start()
 	{
@@ -39,6 +41,12 @@ public class LucesManager : MonoBehaviour {
 		case 4:
 			mood4.SetActive (true);
 			break;
+		case 5:
+			mood5.SetActive (true);
+			break;
+		case 6:
+			mood6.SetActive (true);
+			break;
 		}
 	}
 	public void Flash(int id)
@@ -62,6 +70,8 @@ public class LucesManager : MonoBehaviour {
 		mood2.SetActive (false);
 		mood3.SetActive (false);
 		mood4.SetActive (false);
+		mood5.SetActive (false);
+		mood6.SetActive (false);
 	}
 
 

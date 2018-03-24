@@ -615,7 +615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1974105254453704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,10 +2169,12 @@ MonoBehaviour:
   flash0: {fileID: 1862396799067836}
   flash1: {fileID: 1841189430477906}
   flash2: {fileID: 1232051195369456}
-  mood1: {fileID: 1736361556221276}
+  mood1: {fileID: 1374899891363020}
   mood2: {fileID: 1768549126944472}
-  mood3: {fileID: 1972415856373920}
+  mood3: {fileID: 1162286612246574}
   mood4: {fileID: 1022600393899436}
+  mood5: {fileID: 1736361556221276}
+  mood6: {fileID: 1972415856373920}
   isFlashing: 0
 --- !u!114 &114493648128300402
 MonoBehaviour:
