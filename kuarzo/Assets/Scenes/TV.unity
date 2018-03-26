@@ -8908,9 +8908,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1514186098020666, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 114343312698117066, guid: 10e0602fcf5d587469b23a4f61a3d90c,
+        type: 2}
+      propertyPath: fingerOrientations
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
