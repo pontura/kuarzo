@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class InputManager : MonoBehaviour {
 
 	public UIScreen ui;
-	public Animation introAnim;
+	public IntroOutro introOutro;
 	public LucesManager lucesManager;
 	Main main;
 
@@ -105,13 +105,11 @@ public class InputManager : MonoBehaviour {
 	}
 	void IntroOn()
 	{
-		ui.SetTextField ("intro on");
-		introAnim.Play ("intro");
+		introOutro.Init (true);
 	}
 	void IntroOff()
 	{
-		ui.SetTextField ("intro off");
-		introAnim.Play ("introOff");
+		introOutro.Init (false);
 	}
 	void Flash0()
 	{
