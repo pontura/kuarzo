@@ -59,6 +59,8 @@ public class Main : MonoBehaviour {
 	}
 	public void SetOjosActive()
 	{
+		if (leftEye == null || rightEye == null)
+			return;
 		ojosActive = !ojosActive;
 		leftEye.SetActive (false);
 		rightEye.SetActive (false);

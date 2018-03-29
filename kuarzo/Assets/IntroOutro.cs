@@ -14,8 +14,17 @@ public class IntroOutro : MonoBehaviour {
 		panel.SetActive (false);
 	}
 
-	public void Init(bool isIntro) {		
+	public void Init(bool isIntro) {	
+		panel.SetActive (false);	
+		Invoke ("StartItro", 0.1f);
+		anim.Stop ();
+
+	}
+	void StartItro()
+	{
+		
 		panel.SetActive (true);
+		anim.Play ();
 		anim.Play ("intro");
 	}
 }
