@@ -1027,6 +1027,7 @@ GameObject:
   - component: {fileID: 4879986025370388}
   - component: {fileID: 95438954270593034}
   - component: {fileID: 114356827166649552}
+  - component: {fileID: 114255841861372602}
   m_Layer: 0
   m_Name: campino_misfit_33 (1)
   m_TagString: Untagged
@@ -2646,7 +2647,7 @@ GameObject:
   - component: {fileID: 4703382521107472}
   - component: {fileID: 137611468905955304}
   m_Layer: 0
-  m_Name: ropa_arriba_01
+  m_Name: ropa_arrib_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3923,7 +3924,7 @@ GameObject:
   - component: {fileID: 4893778563690966}
   - component: {fileID: 137757811674174698}
   m_Layer: 0
-  m_Name: ropa_arriba_01.001
+  m_Name: ropa_arriba_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6555,7 +6556,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1489313209582508}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9408,6 +9409,33 @@ MonoBehaviour:
   flipLeftRight: 0
   verticalOffset: 0
   forwardOffset: 0
+--- !u!114 &114255841861372602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213422359681356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86768691cc6b6a44bc20eafcb200b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  calzadoPattern: calzado_
+  ropaAbajoPattern: ropa_abajo_
+  ropaArribaPattern: ropa_arriba_
+  accesorioPattern: 
+  tatuajePattern: 
+  maquillajePattern: 
+  barbaPattern: barba_
+  peinadoPattern: peinado_
+  calzado: []
+  ropaAbajo: []
+  ropaArriba: []
+  accesorio: []
+  tatuaje: []
+  maquillaje: []
+  barba: []
+  peinado: []
 --- !u!114 &114356827166649552
 MonoBehaviour:
   m_ObjectHideFlags: 1

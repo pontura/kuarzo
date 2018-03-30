@@ -17,8 +17,8 @@ public class Customizer : MonoBehaviour {
 	bool apellidoDone, nombreDone, sexoDone;
 
 	public AllAvatars avatars;
-	List<GameObject> chicos;
-	List<GameObject> chicas;
+	public List<GameObject> chicos;
+	public List<GameObject> chicas;
 	bool female;
 
 	ScreenSteps screens;
@@ -55,6 +55,10 @@ public class Customizer : MonoBehaviour {
 		screens = GetComponent<ScreenSteps> ();
 		chicos = avatars.chicos;
 		chicas = avatars.chicas;
+		foreach (GameObject go in chicos)
+			go.AddComponent<AutoRotate> ().speed = new Vector3 (0f, 0.5f, 0f);
+		foreach (GameObject go in chicas)
+			go.AddComponent<AutoRotate> ().speed = new Vector3 (0f, 0.5f, 0f);
 	}
 
 	// Update is called once per frame
@@ -214,11 +218,11 @@ public class Customizer : MonoBehaviour {
 		itemSelected = (AvatarItem)index;
 		for(int i=0;i<ItemButtons.Count;i++){
 			if (index == i) {
-				ItemButtons [i].image.color = Color.black;
-				ItemButtons [i].GetComponentInChildren<Text> ().color = Color.white;
-			} else {
 				ItemButtons [i].image.color = Color.white;
-				ItemButtons [i].GetComponentInChildren<Text> ().color = Color.black;
+				//ItemButtons [i].GetComponentInChildren<Text> ().color = Color.white;
+			} else {
+				ItemButtons [i].image.color = Color.grey;
+				//ItemButtons [i].GetComponentInChildren<Text> ().color = Color.black;
 			}
 		}
 	}
