@@ -91,6 +91,13 @@ public class InputManager : MonoBehaviour {
 		} else if (Input.GetKeyDown (KeyCode.Alpha8)) {
 			main.MoveCamera (-0.01f);
 		}
+		if (Input.GetKeyDown (KeyCode.Alpha6)) {
+			ui.SetTextField ("Rotate Kinect +1");
+			main.RotateCamera (1);
+		} else if (Input.GetKeyDown (KeyCode.Alpha5)) {
+			ui.SetTextField ("Rotate Kinect -1");
+			main.RotateCamera (-1);
+		}
 		
 	}
 	void Ojos()

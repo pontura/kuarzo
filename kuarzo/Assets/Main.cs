@@ -17,7 +17,7 @@ public class Main : MonoBehaviour {
 
 	public GameObject mic;
 	public GameObject mic_to_instantiate;
-
+	public KinectManager kinectManager;
 	public GameObject cameraMain;
 	ParticleSystem micParticles;
 	GameObject trailverde;
@@ -116,6 +116,10 @@ public class Main : MonoBehaviour {
 		Vector3 pos = cameraMain.transform.localPosition;
 		pos.y += _y;
 		cameraMain.transform.localPosition = pos;
+	}
+	public void RotateCamera(int qty)
+	{
+		kinectManager.sensorAngle += qty;
 	}
 		
 }

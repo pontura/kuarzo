@@ -369,11 +369,11 @@ ModelImporter:
     - boneName: neck
       humanName: Neck
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -40, y: -40, z: -29.640287}
+        max: {x: 40, y: 40, z: 7.769785}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: head
       humanName: Head
       limit:
@@ -417,11 +417,11 @@ ModelImporter:
     - boneName: lowerarm.l
       humanName: LeftLowerArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -16.834534, y: 0, z: -80}
+        max: {x: 0, y: 0, z: 80}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: lowerarm.r
       humanName: RightLowerArm
       limit:
@@ -433,11 +433,11 @@ ModelImporter:
     - boneName: hand.l
       humanName: LeftHand
       limit:
-        min: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: 0, z: -18.129498}
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: hand.r
       humanName: RightHand
       limit:
