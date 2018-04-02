@@ -85,6 +85,18 @@ public class InputManager : MonoBehaviour {
 			main.SetTrailVerde (false);
 			Mood (6);
 		}
+		if (Input.GetKeyDown (KeyCode.L)) {
+			main.SetMicTrail (false);
+			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
+			Mood (7);
+		}
+		if (Input.GetKeyDown (KeyCode.K)) {
+			main.SetMicTrail (false);
+			main.SetMicParticles (false);
+			main.SetTrailVerde (false);
+			Mood (8);
+		}
 
 		if (Input.GetKeyDown (KeyCode.Alpha9)) {
 			main.MoveCamera (0.01f);

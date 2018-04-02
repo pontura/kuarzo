@@ -2000,70 +2000,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 23007790366601524, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bcf3804aa42af184693d5303e2600a9d, type: 2}
-    - target: {fileID: 23961050139410314, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 927f4bcbef1924c408f962ca560fddc1, type: 2}
-    - target: {fileID: 137965861260768564, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d49f25ecf42f6004b9115ce1d30deca2, type: 2}
-    - target: {fileID: 137965861260768564, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9f07b6e62842c154aa1420d8cc1c3ccb, type: 2}
-    - target: {fileID: 137965861260768564, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1df26736b40d03445ab3a980bc347f75, type: 2}
-    - target: {fileID: 137806298436190352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: fcccd48cf92085d4ebaed396465f0d89, type: 2}
-    - target: {fileID: 137094259919446060, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f5c991b485b17b948bf641795139876d, type: 2}
-    - target: {fileID: 137246071146924352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8bfa970869e91f0488d408b723a537dc, type: 2}
-    - target: {fileID: 137246071146924352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 79c41d56fdbff4c4da0d30926958e05b, type: 2}
-    - target: {fileID: 137246071146924352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: c67f7656900f7fa439ff8ea9fd7a696e, type: 2}
-    - target: {fileID: 137246071146924352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: aa5b30c47fc3d76479d25cd85b84cdbd, type: 2}
-    - target: {fileID: 137246071146924352, guid: 10e0602fcf5d587469b23a4f61a3d90c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[4]
-      value: 
-      objectReference: {fileID: 2100000, guid: c9714fbeb9c62a14ca65684625ed39f1, type: 2}
-    - target: {fileID: 1663463334268832, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10e0602fcf5d587469b23a4f61a3d90c, type: 2}
   m_IsPrefabParent: 0
@@ -3351,7 +3287,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194.9, y: 0}
+  m_AnchoredPosition: {x: -194.9, y: 71.940765}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771767754
@@ -5370,7 +5306,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 3
   m_ReferenceResolution: {x: 800, y: 600}
@@ -5460,6 +5396,8 @@ MonoBehaviour:
   sexo: {fileID: 145311848}
   name2Show: {fileID: 1035372614}
   avatars: {fileID: 467931465}
+  chicos: []
+  chicas: []
   itemSelected: 0
   ItemButtons:
   - {fileID: 1522896571}

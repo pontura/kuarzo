@@ -3010,8 +3010,10 @@ MonoBehaviour:
   mood2: {fileID: 1768549126944472}
   mood3: {fileID: 1162286612246574}
   mood4: {fileID: 1022600393899436}
-  mood5: {fileID: 1736361556221276}
-  mood6: {fileID: 1972415856373920}
+  mood5: {fileID: 1553677169991550}
+  mood6: {fileID: 1072840394505860}
+  mood7: {fileID: 1736361556221276}
+  mood8: {fileID: 1972415856373920}
   isFlashing: 0
 --- !u!114 &114493648128300402
 MonoBehaviour:

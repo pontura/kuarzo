@@ -23,6 +23,7 @@ public class Main : MonoBehaviour {
 	GameObject trailverde;
 
 	void Start () {
+		
 		jaw = GameObject.Find ("jaw");
 		leftEye  =  GameObject.Find ("leftEye");
 		rightEye =  GameObject.Find ("rightEye");
@@ -46,6 +47,7 @@ public class Main : MonoBehaviour {
 	void Delayed()
 	{
 		trailverde = GameObject.Find ("trailVerde");
+		mic.GetComponent<TrailRenderer> ().enabled = false;
 	}
 	public void SetMouthActive()
 	{
