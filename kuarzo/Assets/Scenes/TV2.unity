@@ -396,7 +396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &177808587
 MonoBehaviour:
@@ -761,7 +761,7 @@ RectTransform:
   m_Children:
   - {fileID: 140217961}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 659385094}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 061fc6d5018e8784c8b9696a999a2389, type: 3}
   m_Name: 
@@ -925,7 +925,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &659385099
 MonoBehaviour:
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 659385094}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8a2276ae0c75c9439e36365c3e7554d, type: 3}
   m_Name: 
@@ -1084,7 +1084,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831017246
 GameObject:
@@ -1194,6 +1194,11 @@ Prefab:
       propertyPath: m_Name
       value: particloes
       objectReference: {fileID: 0}
+    - target: {fileID: 114062825102035380, guid: ebf9cc577b34f514c8ec790bec0af3e3,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebf9cc577b34f514c8ec790bec0af3e3, type: 2}
   m_IsPrefabParent: 0
@@ -1232,6 +1237,7 @@ MonoBehaviour:
   mic: {fileID: 0}
   mic_to_instantiate: {fileID: 1232639960868278, guid: 08a5348b5aabb8f4b9bf5ce62c585bdb,
     type: 2}
+  kinectManager: {fileID: 0}
   cameraMain: {fileID: 177808579}
 --- !u!4 &1359153510
 Transform:
@@ -1244,7 +1250,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1359153511
 MonoBehaviour:
@@ -1308,7 +1314,7 @@ Transform:
   - {fileID: 1897490130}
   - {fileID: 68162097}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1856565624
 MonoBehaviour:
